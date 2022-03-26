@@ -599,6 +599,16 @@
                 </div> 
             </div>        
         </footer>
+        <div id="scrroll-up">
+            <a href="https://wa.me/message/YUSAIHWGJVFME1" class="whatsappbtn" target="_blank">
+                <img src="./images/icons/whatsapp_icon.png" alt="">
+            </a>
+            <div  onclick="scrollToTop()">
+                <img src="./images/icons/arrow_up.png" alt="scrollToTop">
+            </div>
+        </div>
+
+        
     </main>
     <script src="./js/main.js"></script>
     <script src="./js/aos.js"></script>
@@ -607,6 +617,21 @@
 
     <script>
         AOS.init();
+        let scrollToTopbtn = document.querySelector("#scrroll-up");
+        scrollToTop = () => {
+            scrollTo({
+                top : 0,
+                behavior : "smooth"
+            })
+
+            // scrollToTopbtn.addEventListener("click", scrollToTop = () => {
+            //     console.log("clicked");
+            // scrollTo({
+            //     top : 0,
+            //     behavior : "smooth"
+            // })
+            // }, false);
+        }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>

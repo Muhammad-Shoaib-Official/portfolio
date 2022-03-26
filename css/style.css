@@ -260,7 +260,6 @@ position: relative;
 }
 .social-icon{
     width: 16px;
-    /* background-color:var(--social-icon-bg-color) ; */
     margin-top: 0.5rem;
     filter: grayscale(100%);
     transition: 0.5s ease-in-out;
@@ -308,14 +307,12 @@ position: relative;
 .about-top{
     text-align: center;
     padding-bottom: 1rem;
-    /* padding-top: 1rem; */
 }
 .about-top-text{
 color: var(--about-top-text-color);
 }
 .about-heading{
     color: var(--about-heading-color);
-    /* padding: 1rem; */
 }
 .about-heading::after{
     content: '';
@@ -392,7 +389,6 @@ min-width: 300;
 }
 .attribte{
     color: var(--attribte-color);
-    /* font-size: 1rem; */
     margin-right: 1rem;
     font-weight: 500;
     margin-bottom: 0.3rem;
@@ -442,7 +438,6 @@ min-width: 300;
         width: 300px;
         height: 300px;
         min-width: 280px;
-        /* margin: 0 0 1rem 2rem; */
         display: inline-block !important;
         position: relative;   
     }
@@ -471,7 +466,6 @@ min-width: 300;
         font-weight: 300;
     }
     .info-heading{
-        /* font-size: 1.rem; */
         font-weight: 500;
     } 
     .address-row{
@@ -490,8 +484,6 @@ min-width: 300;
     .contact-info-col{
         display: flex;
         align-items: center;
-
-        /* border:  solid red 1px; */
     }
     .attribte{
         margin: 0.5rem 1rem 0.5rem 0;
@@ -501,9 +493,7 @@ min-width: 300;
     .info{
         padding: 0;
     }
-    .address-row-wrapper{
-        /* flex-direction: column; */
-    }
+
     .btn-cv{
         display: block;
         margin: 0.5rem;
@@ -725,16 +715,8 @@ transition: 0.5s;
     padding: 0!important;
     position: relative;
     padding: 4rem 0;
-    /* border: solid red 1px; */
 }
-/* .service-col{
-    flex-basis: 40%;
-    padding: 1rem;
-    margin: 1rem;
-    background: rgb(14, 13, 13);
-    box-shadow: 0px 0px 2px 0px rgba(133, 133, 133,0.5);
-    transition: all 0.5s;
-} */
+
 .porfolio-overlay{
 width: 100%;
 height: 100%;
@@ -810,7 +792,6 @@ transition: 0.5s;border-bottom: solid var(--theme-color) 6px;
 }
 /* --------------testimonial-------------- */
 .testimonial{
-    /* display: none; */
     width: 100%;    
 }
 .testimonial-wrapper{
@@ -912,9 +893,7 @@ width: 100%;
     background: rgb(14, 13, 13);
     box-shadow: 0px 0px 2px 0px rgba(133, 133, 133,0.5);
 }
-.contact-info{
-    /* margin: 0 2.5rem; */
-}
+
 .messge-content{
     width: 94.5%!important;
     border-radius: 0.25rem;
@@ -1060,4 +1039,17 @@ width: 100%;
     .footer-content{
         flex-direction: column;
     }
+}
+#scrroll-up{
+    position: fixed;
+    right: 1.5rem;
+    bottom: 1rem;
+    cursor: pointer;
+ 
+    -webkit-filter : hue-rotate(180deg);
+    filter : hue-rotate(360deg);
+}
+#scrroll-up>a{
+    display: inline-block;
+    margin-bottom: 1rem;
 }
